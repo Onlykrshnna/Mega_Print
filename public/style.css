@@ -469,7 +469,7 @@
 
   @media (max-width: 480px) {
     .stats-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 3.4rem; }
-    .hero-btns { flex-direction: column; width: 100%; }
-    .hero-btns .btn-red, .hero-btns .btn-outline { width: 100%; text-align: center; }
+    .hero h1 { font-size: 2.8rem; }
+    .hero-btns { flex-direction: row; gap: 10px; width: 100%; }
+    .btn-red, .btn-outline { padding: 12px 15px; font-size: 12px; flex: 1; text-align: center; }
   }
