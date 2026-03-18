@@ -468,7 +468,9 @@
   }
 
   @media (max-width: 480px) {
-    .stats-grid { grid-template-columns: 1fr; }
+    .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+    .stat-card { padding: 20px 10px; }
+    .stat-number { font-size: 28px; }
     .hero h1 { font-size: 2.8rem; }
     .hero-btns { flex-direction: row; gap: 10px; width: 100%; }
     .btn-red, .btn-outline { padding: 12px 15px; font-size: 12px; flex: 1; text-align: center; }
