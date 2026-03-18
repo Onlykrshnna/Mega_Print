@@ -106,7 +106,7 @@
     color: var(--dark);
     font-family: 'Oswald', sans-serif;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     transition: color 0.2s;
@@ -457,10 +457,10 @@
     .products-grid { grid-template-columns: 1fr; gap: 20px; }
     .footer-grid { grid-template-columns: 1fr; gap: 36px; }
     .hero { height: auto; min-height: 450px; }
-    .hero h1 { font-size: 36px; }
+    .hero h1 { font-size: 3.4rem; }
     .hero p { font-size: 15px; }
-    .hero-content { padding: 60px 20px; text-align: center; align-items: center; }
-    .hero-btns { justify-content: center; }
+    .hero-content { padding: 60px 20px; text-align: left; align-items: flex-start; }
+    .hero-btns { justify-content: flex-start; }
     nav { padding: 10px 20px; }
     .about, .products, .contact, footer { padding: 60px 20px; }
     .section-title { font-size: 32px; }
@@ -469,7 +469,7 @@
 
   @media (max-width: 480px) {
     .stats-grid { grid-template-columns: 1fr; }
-    .hero h1 { font-size: 32px; }
+    .hero h1 { font-size: 3.4rem; }
     .hero-btns { flex-direction: column; width: 100%; }
     .hero-btns .btn-red, .hero-btns .btn-outline { width: 100%; text-align: center; }
   }
